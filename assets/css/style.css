@@ -25,7 +25,7 @@ header h1 {
 }
 header a {
   text-decoration: none;
-  color: #f9fc38;
+  color: #fce138;
 }
 
 header nav {
@@ -121,10 +121,9 @@ section {
   font-size: 16px;
 }
 
-.intro{
+.intro {
   text-align: center;
 }
-
 
 .intro p {
   line-height: 1.7;
@@ -134,27 +133,9 @@ section {
   margin: 0 auto;
 }
 
-.steps{
+.steps {
   text-align: center;
   background: #fce138;
-}
-
-
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
 }
 
 .steps div {
@@ -177,39 +158,48 @@ section {
   font-size: 23px;
 }
 
-.steps span{
+.steps span {
   font-size: 38px;
 }
 
-.trainer{
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
+.trainers {
+  text-align: center;
+}
+
+.trainer {
   width: 900px;
   margin: 0 auto 30px auto;
   background: #024e76;
   color: #fce138;
-  overflow: auto
+  overflow: auto;
 }
 
-.trainer img{
+.trainer img {
+  width: 35%;
   float: left;
-  width: 35%
 }
 
-.trainer-bio{
+.trainer-bio {
   padding: 35px;
   float: left;
   width: 65%;
-}
-
-.trainers{
-  text-align: center;
-}
-
-.text-left{
-  text-align: left;
-}
-
-.text-right{
-  text-align: right;
 }
 
 .trainer-bio h3 {
@@ -228,25 +218,25 @@ section {
   line-height: 1.3;
 }
 
-.section-title-secondary-border{
-  font-size: 55px;
-  display: inline-block;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  margin-bottom: 35px;
-  border-color: teal;
+.text-left {
+  text-align: left;
 }
 
-.contact h2{
-  color: #fce138;
+.text-right {
+  text-align: right;
 }
 
-.contact{
+/* REACH OUT STYLES START */
+.contact {
   text-align: center;
   background: #024e76;
 }
 
-.contact-info iframe{
+.contact h2 {
+  color: #fce138;
+}
+
+.contact-info iframe {
   width: 400px;
   height: 400px;
 }
@@ -259,3 +249,22 @@ section {
   margin: 30px 0 0 60px;
   color: white;
 }
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
+}
+
+/* REACH OUT STYLES END */
